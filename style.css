@@ -1,0 +1,541 @@
+body{ 
+margin: 0px;
+padding: 0px;
+overflow-x:hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header{
+    position: relative;
+    bottom: 15px;
+    left: 50px;
+}
+
+.full-logo{
+    width: 250px;
+    margin-top: 30px;
+    position: relative;
+    top: 20px;
+    margin-left: 200px;
+}
+
+a{
+    text-decoration: none;
+    padding-right: 20px;
+    position: relative;
+    right: 300px;
+   font-size: 20px;
+}
+
+.about{
+    color: #00b39b;
+}
+
+
+.departments ,.career{
+    color: #ababab;
+}
+
+ .career:hover{
+    color: #00b39b;
+
+}
+
+
+ .departments:hover{
+    color: #00b39b;
+}
+
+.logo-center{
+    width: 30px;
+    position: relative;
+    top: 100px;
+    left: 690px;
+}
+
+h4{
+font-family: 'Source Code Pro', monospace;
+color: #00b39b;
+ margin-top: 120px;
+ margin-left: 370px;
+ font-size: 30px;
+}
+
+.paragraphs{
+    display: grid;
+    margin-left: 400px;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    position: relative;
+    right: 50px; 
+    color: #747474;
+    font-size: 19px;
+}
+
+.p1{
+    width: 390px;
+}
+
+.p2{
+    width: 340px;
+}
+
+.for-patient{
+    border: 1px solid #00b39b;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #00b39b;
+    position: relative;
+    left: 100px;
+}
+
+
+.for-doctors{
+    border: 1px solid #3d83df ;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #3d83df ;
+}
+
+.for-clinics{
+    background-color: #1b2734;
+    border: 1px solid #1b2734;
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    position: relative;
+    right: 120px;
+}
+
+h2{
+    color: white;
+    font-size: 30px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.patient-paragraph{
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.doctor-paragraph{
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.clinics-paragraph{
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+select{
+    position: relative;
+    top: 50px;
+    left: 100px;
+    border: none;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   text-decoration: white underline;
+}
+
+option{
+font-size: 15px;
+}
+
+.doctor-select{
+  background-color:#3d83df;
+}
+
+.patient-select{
+    background-color:#00b39b;
+}
+
+.lead-section2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    left: 100px;
+    top: 60px;
+}
+
+.specialists-select{
+    position: relative;
+   top: -5px;
+   left: 100px;
+   border: none;
+  background-color: #1b2734;
+  text-decoration:white underline;
+}
+
+.specialists-select2{
+    margin-left: -150px;
+    border: none;
+    background-color: #1b2734;
+    text-decoration: white underline;
+}
+
+
+.sub-section{
+    position: relative;
+    top: 100px;
+    left: 290px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.lead-section2-img{
+    width: 20px;
+    position: relative;
+    top: 60px;
+    left: 55px;
+}
+
+.sub-section-paragraph{
+    color: #00b39b;
+    position: relative;
+    width: 250px;
+    bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    right: 50px;
+    font-family: monospace;
+}
+
+
+
+.section3logos{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 50px;
+   position: relative;
+   left: 500px;
+   bottom: 160px;
+}
+
+.section3logos, img{
+    width: 70px;
+}
+
+.gipo{
+    position: relative;
+    bottom: 20px;
+}
+
+
+.tuotempo{
+    position: relative;
+    top: 10px;
+}
+
+.content{
+  margin-top: -60px;
+}
+
+.platform{
+    background-color: #d0faf4;
+    height: 550px;
+    position: relative;
+    bottom: 100px;
+}
+
+.platform-header{
+    color: #00b39b;
+    width: 400px;
+    position: relative;
+    top: 60px;
+    left: 100px;
+    
+}
+
+.platform-paragraph{
+    color: #747474;
+    position: relative;
+    top: 60px;
+    left: 150px;
+    width:  450px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.platform-logo{
+    position: relative;
+    top: 72px;
+    left: 100px;
+    width: 30%;
+}
+
+.platform-content1{
+border: 2px solid #00b39b;
+width: 220px;
+background-color: white;
+height: 250px;
+border-radius: 4px;
+border: none;
+}
+
+ .content-header1{
+    position: relative;
+    right: 215px;
+    font-size: 15px;
+    }
+
+    .content-paragraph1{
+     position: relative;
+     bottom: 90px;
+     left: 10px;
+     font-size: 10px;
+     font-weight: 400;
+     font-family: Roboto, Arial, sans-serif;
+     color: #747474;
+     width: 220px;
+     
+    }
+
+.platform-content2{
+    border: 2px solid #00b39b;
+    width: 220px;
+    background-color: white;
+    height: 250px;
+    border-radius: 4px;
+    position: relative;
+    left: 250px;
+    bottom: 310px;
+    border: none;
+    }
+
+    .content-header2{
+        position: relative;
+        right: 215px;
+        }
+
+     .content-paragraph2{
+       position: relative;
+        bottom: 70px;
+         left: 30px;
+        color:#747474;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+    .platform-content3{
+     border: 2px solid #00b39b;
+    width: 220px;
+    background-color: white;
+    height: 250px;
+    border-radius: 4px;
+    position: relative;
+    right: 250px;
+     bottom: 30px;
+    border: none;
+    }
+
+    .h3{
+        position: relative;
+        bottom: 50px;
+        right: 120px;
+    }
+    .content-paragraph3{
+     position: relative;
+     bottom: 65px;
+     left: 7px;
+     color:#747474;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+.content{
+    position: relative;
+    left: 800px;
+    bottom: 400px;
+}
+
+.platform-content4{
+    position: relative;
+    left: 250px; 
+  border: 2px solid #00b39b;
+   width: 220px;
+   background-color: white;
+   height: 250px;
+   border-radius: 4px;
+   position: relative;
+   right: 250px;
+    bottom: 300px;
+   border: none;
+}
+
+.h6{
+    position: relative;
+    right: 320px;
+    width: 200px;
+    bottom: 60px;
+}
+
+.content-paragraph6{
+position: relative;
+bottom: 90px;
+left: 50px;
+color:#747474;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.h4{
+    width: 350px;
+    position: relative;
+    right: 150px;
+    bottom: 60px;
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.appointment{
+    position: relative;
+    bottom: 60px;
+    right: 150px;
+}
+
+
+.flag{
+    width: 25px;
+    position: relative;
+    top: 50px;
+    left: 90px;
+}
+
+.platform-sub-section{
+margin-left: -270px;
+}
+
+.platform-sub-section-header{
+   font-size: 27px;
+   margin-left: -500px;
+   letter-spacing: 1px;
+   text-align: center;
+   color: #00b39b;
+  }
+
+  .platform-sub-section-paragraph{
+    font-size: 15px;
+    margin-left: -500px;
+    font-family: 'AR One Sans', sans-serif;
+    line-height: 30px;
+    text-align: center;
+    color: #747474;
+  }
+
+
+  .country-imgs{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 30px;
+   position: relative;
+   right: 700px;
+   top: 150px;
+  }
+
+  .country{
+    width: 250px;
+  }
+  
+  .countires{
+    border: 1px solid black;
+    width: 250px;
+    height: 50px;
+    border-radius: 4px;
+    position: relative;
+    bottom: 5px;
+    background-color: white;
+  }
+
+.country:hover{
+    box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.1)
+  }
+
+  .button:hover{
+    box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.1)
+  }
+
+  button{
+    position: relative;
+    bottom: 45px;
+    width: 95px;
+    left: 153px;
+    height: 35px;
+    color: white;
+    background-color: rgb(61, 131, 223);
+    border-radius: 5px;
+    border: transparent;
+  }
+
+  .country-paragraph{
+   color:#747474;
+  }
+
+  h6{
+    margin-top: 300px;
+    margin-left: -380px;
+    font-size: 1.5em;
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+  }
+
+  .paragraph-button{
+    width: 300px;
+    position: relative;
+    left: -360px;
+    border: transparent;
+    height: 40px;
+  }
+
+.last{
+    position: relative;
+    left: -100px;
+}
+
+.end{
+width: 1000px;
+margin: 20px auto;
+position: relative;
+right: 900px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 12px;
+    font-family: Roboto, Arial, sans-serif;
+    color: rgb(171, 171, 171);
+    padding-left: 100px;
+    padding-right: 100px
+}
+
+footer a{
+    font-size: 10px;
+   position: relative;
+   left: 15px
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .paragraphs{
+    background-color: #3d83df;
+    }
+}
